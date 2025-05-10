@@ -1,0 +1,163 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    border: 5px mediumslateblue;
+    box-shadow: 7px 7px 7px darkmagenta;
+    align-items: center;
+    border-radius: 15%;
+    flex-direction: column;
+    background-color: gray;
+    padding: 5px;
+}
+.text{
+    background-color: transparent;
+}
+input:valid:not(:placeholder-shown){
+    border-color:5px solid brown ;
+}
+input:invalid:not(:placeholder-shown){
+    border:5px solid black;
+}
+input:invalid+p{
+ color:blueviolet;
+}
+input:invalid~button[type="submit"]{
+    opacity:0.6;
+    pointer-events: none;
+}
+.img1{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+body{
+    background-color:grey;
+    font-size: medium;
+    margin-left: 30px;
+}
+h1{
+    font-family: harrington;
+    font-size: 100px;
+    color: blueviolet;
+}
+.img{
+    float: left;
+    width:350px;
+    height: 200px;
+}
+
+.navbar {
+    background-color: rgb(46, 47, 49);
+    margin:  5px;
+    padding: 1px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: block;
+    overflow:hidden;
+}
+.navbar ul li:hover {
+    background-color:grey;
+}
+.navbar li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar a{
+    text-decoration:none;
+    color: white;
+    font-size: 30px;
+}
+.navbar a:hover{
+    color: darkorchid;
+}
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: darkgray;
+    min-width: 180px;
+}
+.navbar ul li:hover ul {
+    display: block;
+}
+.navbar ul li ul li {
+    display: block;
+}
+.navbar ul li ul a:hover{
+    color: darkmagenta;
+}
+.navbar ul li ul li:hover {
+    background-color: gray ;
+}
+.cir{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+.Circle ul{
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+
+}
+.Circle li{
+    float: left;
+    padding: 50px;
+    margin: 15px;
+}.square {
+    height:200px;
+    width:200px;
+    border-radius: 3%;
+    background-color: white;
+    margin: 10px;
+}
+.Square ul{
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+.Square li{
+    float: left;
+    padding: 50px;
+    margin: 15px;
+}
+.music {
+    display: flex;
+    color: darkgrey;
+    justify-content: space-evenly;
+    padding-bottom:15px;
+    border-radius: 5%;
+    padding: 35px;
+    margin: 15px;
+    flex-direction: row;
+}.foot{
+    font-family: cursive;
+    background-color:transparent;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.foot ul{
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+.foot a{
+    text-decoration:none;
+    color: rgb(49, 47, 47);
+    font-size: 30px;
+}
+.foot a:hover{
+    background-color:white;
+}
+.foot li{
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
